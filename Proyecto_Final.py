@@ -9,4 +9,12 @@ def datos_usuario():
     telefono = telefono_entry.get()
     pedido = pedido_entry.get("1.0", tk.END)
 
-  
+  # Imprimimos los valores por consola
+    print("El dni es:", dni)
+    print("El nombre es:", nombres)
+    print("El apellido es:", apellidos)
+    print("La dirrecion es :", direccion)
+    print("El teléfono es:", telefono)
+    print("El Pedido que hizo es:", pedido)
+
+    
