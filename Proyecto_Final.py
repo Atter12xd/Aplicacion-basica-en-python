@@ -24,3 +24,7 @@ def datos_usuario():
     direccion_entry.delete(0, tk.END)
     telefono_entry.delete(0, tk.END)
     pedido_entry.delete("1.0", tk.END)
+
+    # Creamos la ventana principal
+root = tk.Tk()
+root.title("Ferreteria El tornillo feliz")
