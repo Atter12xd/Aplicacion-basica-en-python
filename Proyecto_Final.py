@@ -61,3 +61,7 @@ pedido_entry.grid(row=5, column=1, padx=5, pady=5)
 submit_button = tk.Button(root, text="Enviar" , command=datos_usuario) # Aqui llamamos a la funcion del "def" que creamos con la variable (datos_usario)
 submit_button.grid(row=6, column=1, padx=5, pady=5, sticky=tk.E)
 
+# Creamos el botón de impresión
+print_button = tk.Button(root, text="Imprimir")
+print_button.grid(row=6, column=0, padx=5, pady=5, sticky=tk.W)
+
