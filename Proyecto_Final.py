@@ -56,3 +56,8 @@ telefono_label.grid(row=4, column=0, padx=5, pady=5, sticky=tk.E)
 telefono_entry.grid(row=4, column=1, padx=5, pady=5)
 pedido_label.grid(row=5, column=0, padx=5, pady=5, sticky=tk.E)
 pedido_entry.grid(row=5, column=1, padx=5, pady=5)
+
+# Creamos el botón de envío
+submit_button = tk.Button(root, text="Enviar" , command=datos_usuario) # Aqui llamamos a la funcion del "def" que creamos con la variable (datos_usario)
+submit_button.grid(row=6, column=1, padx=5, pady=5, sticky=tk.E)
+
