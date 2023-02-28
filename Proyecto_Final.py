@@ -65,3 +65,5 @@ submit_button.grid(row=6, column=1, padx=5, pady=5, sticky=tk.E)
 print_button = tk.Button(root, text="Imprimir")
 print_button.grid(row=6, column=0, padx=5, pady=5, sticky=tk.W)
 
+# Iniciamos el loop principal
+root.mainloop()
