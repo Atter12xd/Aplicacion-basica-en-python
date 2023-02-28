@@ -28,3 +28,17 @@ def datos_usuario():
     # Creamos la ventana principal
 root = tk.Tk()
 root.title("Ferreteria El tornillo feliz")
+
+# Creamos los campos de entrada
+dni_label = tk.Label(root, text="DNI:")
+dni_entry = tk.Entry(root)
+nombres_label = tk.Label(root, text="Nombres:")
+nombres_entry = tk.Entry(root)
+apellidos_label = tk.Label(root, text="Apellidos:")
+apellidos_entry = tk.Entry(root)
+direccion_label = tk.Label(root, text="Dirección:")
+direccion_entry = tk.Entry(root)
+telefono_label = tk.Label(root, text="Teléfono:")
+telefono_entry = tk.Entry(root)
+pedido_label = tk.Label(root, text="Pedido:")
+pedido_entry = tk.Text(root, height=5, width=30)
