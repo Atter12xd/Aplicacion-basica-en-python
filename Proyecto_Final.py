@@ -17,4 +17,10 @@ def datos_usuario():
     print("El teléfono es:", telefono)
     print("El Pedido que hizo es:", pedido)
 
-    
+    # Limpiamos los campos
+    dni_entry.delete(0, tk.END)
+    nombres_entry.delete(0, tk.END)
+    apellidos_entry.delete(0, tk.END)
+    direccion_entry.delete(0, tk.END)
+    telefono_entry.delete(0, tk.END)
+    pedido_entry.delete("1.0", tk.END)
